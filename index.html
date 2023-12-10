@@ -10,23 +10,50 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
       rel="stylesheet"
     />
+
     <title>Week 7 Forecast</title>
   </head>
   <body>
     <div class="application">
+      <header>
+      <form class="search-form">
+        <input
+          type="search"
+          placeholder="Enter a City..."
+          required
+          class="search-form-input"
+        />
+        <input type="submit" value="Search" class="submit-form" />
+        </header>
+      </form>
+      <main>
+        <div class="weather-app-data">
+          <div>
       <h1 class="current-city" id="current-city">Zurich, Switzerland</h1>
-      <h2 class="current-temperature" id="current-temperature">
-        <strong>20°C</strong>
-      </h2>
-      <footer>
-        Coded by
+      </div>
+      <p>
+        <div>
+        <div class="current-temperature">
+          ❄ 20°C</div> 
+          <div class="readings">
+          <div class="weather-condition">Snowing</div>
+        Wednesday 10:28 PM </br>
+        <span class="humidity">Humidity: <span class="numbers">20%</span></span>
+        <span class="wind">Wind: <span class="numbers">3.3 km/h</span></span>
+      </div> 
+      </p>
+      </div>
+      </main>
+      <footer> <div class="information">
+        This project was coded by
         <a href="https://github.com/aam214" target="_blank">Ariana M.</a> hosted
         <a href="https://github.com/aam214/Week-7-Forecast" target="_blank"
           >on Github</a
         >
         and with <a href="" target="_blank">Netlify</a>.
+      </div>
       </footer>
-    </div>
+      </div>
     <script src="app.js"></script>
   </body>
 </html>

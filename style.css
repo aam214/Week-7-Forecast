@@ -1,12 +1,81 @@
 h1,
-h2,
+p,
+.submit-form,
+.readings,
+.search-form-input,
+.current-temperature,
 footer {
   font-family: "Roboto Slab", serif;
   text-align: center;
+  color: rgb(93, 90, 119);
+}
+header {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  padding: 0 0 20px 0;
+}
+
+.information {
+  border-top: 1px solid rgb(235, 235, 235);
+  padding: 25px 0 0 0;
+  font-size: 14px;
 }
 body {
-  background-color: rgb(219, 220, 223);
+  background-color: rgb(235, 235, 235);
 }
+
+h1 {
+  padding-top: 80px;
+  margin-top: 48px;
+  font-size: 37px;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-evenly;
+}
+.numbers {
+  color: #e73189;
+  font-weight: bold;
+}
+.current-temperature {
+  font-size: 52px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+.current-temperature,
+.readings {
+  position: relative;
+
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+.readings {
+  font-size: 15px;
+  color: black;
+}
+
+p {
+  font-size: 15px;
+}
+.search-form-input {
+  background: rgb(246, 245, 250);
+  border: none;
+  width: 250px;
+  margin-left: 200px;
+  padding: 12px 18px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.submit-form {
+  padding: 12px 15px;
+  border: none;
+  width: 14%;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  color: white;
+  background: #e73189;
+}
+
 .application {
   background: white;
   max-width: 700px;
@@ -14,4 +83,16 @@ body {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   border-radius: 20px;
+}
+.snow-flake {
+  color: rgb(141, 141, 224);
+  text-shadow: 20px;
+  font-size: 60px;
+}
+a {
+  color: #e73189;
+}
+footer {
+  margin-top: 100px;
+  font-size: 15px;
 }
