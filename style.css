@@ -1,3 +1,17 @@
-h1 {
-  color: blue;
+h1,
+h2,
+footer {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+body {
+  background-color: rgb(219, 220, 223);
+}
+.application {
+  background: white;
+  max-width: 700px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
+  border-radius: 20px;
 }
