@@ -20,7 +20,9 @@ header {
   font-size: 14px;
 }
 body {
-  background-color: rgb(235, 235, 235);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/750/original/weather.jpg?1702245046);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
