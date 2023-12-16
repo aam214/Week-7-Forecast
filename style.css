@@ -42,30 +42,32 @@ h1 {
   display: flex;
   justify-content: space-evenly;
 }
-.numbers {
+.numbers,
+.weather-condition {
   color: #e73189;
+  font-size: 15px;
   font-weight: bold;
 }
 .current-temperature {
   font-size: 55px;
   font-weight: bold;
   position: relative;
-  padding-left: 200px;
+  padding-left: 140px;
   padding-top: 90px;
 }
 .weather-app-unit {
   position: relative;
   font-size: 25px;
   font-weight: bold;
-  padding-left: 295px;
-  margin-top: -70px;
+  padding-left: 230px;
+  margin-top: -67px;
 }
 
 .readings {
   font-size: 15px;
   font-weight: bold;
   position: relative;
-  padding-left: 200px;
+  padding-left: 140px;
   padding-top: 40px;
 }
 
